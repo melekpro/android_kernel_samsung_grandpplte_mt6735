@@ -22,6 +22,24 @@ debug.atrace.tags.enableflags=0
 persist.sys.usb.config=mtp,adb
 ro.mount.fs=EXT4
 camera.disable_zsl_mode=1
+# ADB Insecure
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.adb.notify=0
+# PhoenixKernel tweaks
+ro.build.version.security_index=0
+ro.security.vpnpp.ver=0
+ro.security.vpnpp.release=0
+ro.frp.pst=0
+ro.security.vaultkeeper.feature=0
+ro.config.tima=0
+ro.config.timaversion=0
+ro.config.timaversion_info=0
+ro.config.iccc.version=0
+ro.config.dmverity=0
+ro.config.kap_default_on=false
+ro.config.kap=false
+sys.display-size=3840x2160
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
