@@ -1,5 +1,5 @@
 #!/bin/bash
-export CROSS_COMPILE=~/kernels/toolchains/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+export CROSS_COMPILE=~/kernels/toolchains/arm-eabi-4.8/bin/arm-eabi-
 export ARCH=arm
 DTS=arch/arm/boot/dts
 make mt6737t_grandpplte_ltn_open_01.dtb mt6737t_grandpplte_ltn_open_02.dtb mt6737t_grandpplte_ltn_open_03.dtb mt6737t_grandpplte_ltn_open_04.dtb

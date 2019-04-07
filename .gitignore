@@ -9,6 +9,7 @@
 .vmlinux.cmd
 Module.symvers
 System.map
+arch/arm/crypto/sha256_neon_glue.o
 arch/arm/boot/.Image.cmd
 arch/arm/boot/.zImage.cmd
 arch/arm/boot/Image
