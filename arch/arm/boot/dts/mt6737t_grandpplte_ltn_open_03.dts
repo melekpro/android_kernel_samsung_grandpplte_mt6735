@@ -11,10 +11,10 @@
 	model = "Samsung GrandPrimePlus LTE LTN OPEN rev03 board based on MT6737T";
 	model_info-chip = <6735>;
 	model_info-platform = "android";
-	model_info-subtype = "mediatek";
+	model_info-subtype = "samsung";
 	model_info-hw_rev = <3>;
 	model_info-hw_rev_end = <3>;
-	compatible = "samsung, GrandPrimePlus LTE LTN OPEN 03", "mediatek,MT6735";
+	compatible = "samsung, GrandPrimePlus LTE LTN OPEN 03", "samsung,MT6735";
 
 	memory@40000000 {
 		device_type = "memory";
@@ -22,43 +22,43 @@
 	};
 
 	led0:led@0 {
-		compatible = "mediatek,red";
+		compatible = "samsung,red";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led1:led@1 {
-		compatible = "mediatek,green";
+		compatible = "samsung,green";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led2:led@2 {
-		compatible = "mediatek,blue";
+		compatible = "samsung,blue";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led3:led@3 {
-		compatible = "mediatek,jogball-backlight";
+		compatible = "samsung,jogball-backlight";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led4:led@4 {
-		compatible = "mediatek,keyboard-backlight";
+		compatible = "samsung,keyboard-backlight";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led5:led@5 {
-		compatible = "mediatek,button-backlight";
+		compatible = "samsung,button-backlight";
 		led_mode = <0>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
 	};
 	led6:led@6 {
-		compatible = "mediatek,lcd-backlight";
+		compatible = "samsung,lcd-backlight";
 		led_mode = <4>;
 		data = <1>;
 		pwm_config = <0 0 0 0 0>;
@@ -87,7 +87,7 @@
 	};
 
 	panel {
-		compatible = "mediatek,mtk-dsi-panel";
+		compatible = "samsung,mtk-dsi-panel";
 		gen-panel = <&gen_panel>;
 		gen-panel-backlight = <&backlight>;
 		gen_panel: gen-panel{};
@@ -1224,7 +1224,7 @@
 /* FM Radio antenna switch configurations */
 &soc{
 	mt_fmradio_mt6627 {
-		compatible = "mediatek,mt_mt6627_fmradio";
+		compatible = "samsung,mt_mt6627_fmradio";
 		fmradio_ant_sel = <&pio 140 0>;
 	};
 };
