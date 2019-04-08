@@ -16,7 +16,6 @@
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata /nvdata ext4 noatime,nosuid,nodev,noauto_da_alloc,discard,journal_async_commit,errors=panic wait,check,formattable
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/EFS /efs ext4 noatime,nosuid,nodev,noauto_da_alloc,discard,journal_async_commit,errors=panic wait,check
 # 20 "vendor/mediatek/proprietary/hardware/fstab/mt6735/fstab.in"
-/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp /persistent emmc defaults defaults
 
 
 

@@ -721,9 +721,6 @@ on boot
     #write /proc/sys/vm/dirty_background_ratio  5
     #for dirty_background_ratio, just use kernel default value
 
-    # Google FRP 
-    symlink /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/PERSISTENT /dev/block/persistent
-
     # Permissions for System Server and daemons.
     chown radio system /sys/android_power/state
     chown radio system /sys/android_power/request_state
