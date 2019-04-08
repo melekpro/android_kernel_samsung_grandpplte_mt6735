@@ -411,6 +411,19 @@ deps_drivers/cpufreq/cpufreq_conservative.o := \
     $(wildcard include/config/cpu/freq/default/gov/userspace.h) \
     $(wildcard include/config/cpu/freq/default/gov/ondemand.h) \
     $(wildcard include/config/cpu/freq/default/gov/interactive.h) \
+    $(wildcard include/config/cpu/freq/default/gov/bioshock.h) \
+    $(wildcard include/config/cpu/freq/default/gov/blu/active.h) \
+    $(wildcard include/config/cpu/freq/default/gov/dancedance.h) \
+    $(wildcard include/config/cpu/freq/default/gov/electrodemand.h) \
+    $(wildcard include/config/cpu/freq/default/gov/hyper.h) \
+    $(wildcard include/config/cpu/freq/default/gov/intellidemand.h) \
+    $(wildcard include/config/cpu/freq/default/gov/smartass2.h) \
+    $(wildcard include/config/cpu/freq/default/gov/smartmax.h) \
+    $(wildcard include/config/cpu/freq/default/gov/smartmax/eps.h) \
+    $(wildcard include/config/cpu/freq/default/gov/pegasusq.h) \
+    $(wildcard include/config/cpu/freq/default/gov/ondemand/x.h) \
+    $(wildcard include/config/cpu/freq/default/gov/impulse.h) \
+    $(wildcard include/config/cpu/freq/default/gov/wheatley.h) \
     $(wildcard include/config/pm/opp.h) \
   include/linux/clk.h \
     $(wildcard include/config/common/clk.h) \
