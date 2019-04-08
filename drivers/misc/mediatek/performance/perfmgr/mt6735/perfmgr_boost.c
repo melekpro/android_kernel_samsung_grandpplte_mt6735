@@ -24,7 +24,7 @@
 /*--------------  MACRO -------------------*/
 #define MAX_USER    4
 #define MAX_CORE    (4)
-#define MAX_FREQ    (1443000)
+#define MAX_FREQ    (1586000)
 
 #ifdef max
 #undef max
