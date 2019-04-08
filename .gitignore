@@ -27,6 +27,13 @@ drivers/input/touchscreen/.doubletap2wake.o.cmd
 drivers/input/touchscreen/doubletap2wake.o
 dt2w.patch
 System.map
+block/.fifo-iosched.o.cmd
+block/.fiops-iosched.o.cmd
+block/.sio-iosched.o.cmd
+block/.sioplus-iosched.o.cmd
+block/.tripndroid-iosched.o.cmd
+block/.vr-iosched.o.cmd
+block/.zen-iosched.o.cmd
 arch/arm/crypto/sha256_neon_glue.o
 arch/arm/boot/.Image.cmd
 arch/arm/boot/.zImage.cmd
