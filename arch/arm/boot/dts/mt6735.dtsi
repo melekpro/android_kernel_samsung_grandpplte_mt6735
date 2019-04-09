@@ -1009,7 +1009,7 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 				<GIC_SPI 211 IRQ_TYPE_LEVEL_LOW>,
 				<GIC_SPI 210 IRQ_TYPE_LEVEL_LOW>;
 			interrupt-names = "JOB", "MMU", "GPU";
-			clock-frequency = <450000000>;
+			clock-frequency = <698000000>;
 			clocks = <&mfgsys MFG_BG3D>,
 				<&mmsys MM_DISP0_SMI_COMMON>,
 				<&scpsys SCP_SYS_MFG>,
