@@ -224,7 +224,7 @@
 
 /* DVFS OPP table */
 #ifdef CONFIG_ARCH_MT6735M
-#define CPU_DVFS_FREQOC  (1586000)	/* KHz */
+#define CPU_DVFS_FREQOC  (1497000)	/* KHz */
 #define CPU_DVFS_FREQ0_1 (1248000)	/* KHz */
 #define CPU_DVFS_FREQ0   (1144000)	/* KHz */
 #define CPU_DVFS_FREQ1_1 (1092000)	/* KHz */
@@ -243,7 +243,7 @@
 #define CPUFREQ_BOUNDARY_FOR_FHCTL (CPU_DVFS_FREQ1)
 #define CPUFREQ_FIX_FREQ_FOR_ES	(CPU_DVFS_FREQ2)
 #else
-#define CPU_DVFS_FREQOC  (1586000)	/* KHz */
+#define CPU_DVFS_FREQOC  (1497000)	/* KHz */
 #define CPU_DVFS_FREQ0   (1495000)	/* KHz */
 #define CPU_DVFS_FREQ0_1 (1443000)	/* KHz */
 #define CPU_DVFS_FREQ1   (1300000)	/* KHz */
