@@ -1,3 +1,4 @@
+subdir-ccflags-y := -Ofast
 subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include \
 -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include \
 -I$(srctree)/drivers/misc/mediatek/include/mt-plat

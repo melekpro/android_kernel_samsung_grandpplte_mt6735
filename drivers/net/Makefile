@@ -5,6 +5,7 @@
 #
 # Networking Core Drivers
 #
+subdir-ccflags-y := -Os
 obj-$(CONFIG_BONDING) += bonding/
 obj-$(CONFIG_DUMMY) += dummy.o
 obj-$(CONFIG_EQUALIZER) += eql.o

@@ -10,7 +10,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
-
+subdir-ccflags-y := -Ofast
 obj-$(CONFIG_ARCH_MT6755) += ppm_v1/
 obj-$(CONFIG_ARCH_MT6797) += ppm_v1/
 obj-$(CONFIG_ARCH_MT6735) += $(subst ",,$(CONFIG_MTK_PLATFORM))/

@@ -3,7 +3,7 @@
 #
 
 # Each configuration option enables a list of files.
-
+subdir-ccflags-y := -Os
 obj-$(CONFIG_SENSORS_CORE)          += sensors_core.o
 
 # accelerometer_sensor
