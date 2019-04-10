@@ -884,11 +884,11 @@ on boot
 
 on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor interactive
-    write /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration 0
-    write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 95
-    write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 1170000
-    write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 20000
-    write /sys/devices/system/cpu/cpufreq/interactive/target_loads  "70 819000:85 1040000:95 1300000:99"
+    write /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration 30000
+    write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 80
+    write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 962000
+    write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 30000
+    write /sys/devices/system/cpu/cpufreq/interactive/target_loads  "80 819000:90 1040000:92 1430000:96"
     write /sys/devices/system/cpu/cpu1/online 0
     write /sys/devices/system/cpu/cpu2/online 0
     write /sys/devices/system/cpu/cpu3/online 0
