@@ -110,7 +110,7 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 			reg = <0x000>;
 			enable-method = "spin-table";
 			cpu-release-addr = <0x0 0x40000200>;
-			clock-frequency = <1497000000>;
+			clock-frequency = <1300000000>;
 		};
 
 		cpu1: cpu@001 {
@@ -119,7 +119,7 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 			reg = <0x001>;
 			enable-method = "spin-table";
 			cpu-release-addr = <0x0 0x40000200>;
-			clock-frequency = <1497000000>;
+			clock-frequency = <1300000000>;
 		};
 
 		cpu2: cpu@002 {
@@ -128,7 +128,7 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 			reg = <0x002>;
 			enable-method = "spin-table";
 			cpu-release-addr = <0x0 0x40000200>;
-			clock-frequency = <1497000000>;
+			clock-frequency = <1300000000>;
 		};
 
 		cpu3: cpu@003 {
@@ -137,7 +137,7 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 			reg = <0x003>;
 			enable-method = "spin-table";
 			cpu-release-addr = <0x0 0x40000200>;
-			clock-frequency = <1497000000>;
+			clock-frequency = <1300000000>;
 		};
 	};
 
@@ -1727,15 +1727,15 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 				};
 				mt_pmic_vtcxo_0_ldo_reg: ldo_vtcxo_0 {
 					regulator-name = "vtcxo_0";
-					regulator-min-microvolt = <2800000>;
-					regulator-max-microvolt = <2800000>;
+					regulator-min-microvolt = <3000000>;
+					regulator-max-microvolt = <3000000>;
 					regulator-enable-ramp-delay = <110>;
 					//regulator-boot-on;
 				};
 				mt_pmic_vtcxo_1_ldo_reg: ldo_vtcxo_1 {
 					regulator-name = "vtcxo_1";
-					regulator-min-microvolt = <2800000>;
-					regulator-max-microvolt = <2800000>;
+					regulator-min-microvolt = <3000000>;
+					regulator-max-microvolt = <3000000>;
 					regulator-enable-ramp-delay = <110>;
 				};
 				mt_pmic_vaud28_ldo_reg: ldo_vaud28 {
@@ -1954,13 +1954,13 @@ initrd=0x44000000,0x300000 loglevel=8 androidboot.hardware=mt6735";
 			usb_charger_current_suspend = <0 >;	/* Unit: 0.01 mA */
 			usb_charger_current_unconfigured = <7000 >;	/* Unit: 0.01 mA */
 			usb_charger_current_configured = <50000 >;	/* Unit: 0.01 mA */
-			usb_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			ac_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			non_std_ac_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			charging_host_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			apple_0_5a_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			apple_1_0a_charger_current = <155000 >;	/* Unit: 0.01 mA */
-			apple_2_1a_charger_current = <155000 >;	/* Unit: 0.01 mA */
+			usb_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			ac_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			non_std_ac_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			charging_host_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			apple_0_5a_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			apple_1_0a_charger_current = <200000 >;	/* Unit: 0.01 mA */
+			apple_2_1a_charger_current = <200000 >;	/* Unit: 0.01 mA */
 
 			/* charger error check */
 			bat_low_temp_protect_enable = <0 >;

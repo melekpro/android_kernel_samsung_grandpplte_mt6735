@@ -57,7 +57,7 @@ extern unsigned int system_rev ;
 extern int sec_vf_adc_current_check(void);
 #endif
 
-#define SIOP_INPUT_LIMIT_CURRENT 1550
+#define SIOP_INPUT_LIMIT_CURRENT 2000
 /*	temp
 extern int sec_chg_dt_init(struct device_node *np,
 			 struct device *dev,
@@ -299,8 +299,8 @@ static u8 SM5701_set_vbuslimit_current(
 
 	pr_info("%s input_current = %dmA \n", __func__,input_current);
 	
-	if (input_current >= 1200)
-		input_current = 1550;
+	if (input_current >= 2000)
+		input_current = 2000;
 
 	/* Soft Start Charging */
 	if (((charger->cable_type != POWER_SUPPLY_TYPE_BATTERY) &&

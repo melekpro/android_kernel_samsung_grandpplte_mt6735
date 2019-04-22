@@ -376,8 +376,8 @@ static void sec_bat_get_charging_current_by_siop(struct sec_battery_info *batter
 			*charging_current = 900;
 		} else if (battery->cable_type == POWER_SUPPLY_TYPE_MAINS ||
 			battery->cable_type == POWER_SUPPLY_TYPE_HV_MAINS_CHG_LIMIT) {
-			*input_current = 1000;
-			*charging_current = 900;
+			*input_current = 2000;
+			*charging_current = 2000;
 		}
 	} else if (battery->siop_level < 100) {
 		/* decrease the charging current according to siop level */
